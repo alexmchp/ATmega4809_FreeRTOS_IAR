@@ -148,7 +148,7 @@ StackType_t *pxTopOfHardwareStack;
 
 
 	/* Now the remaining registers. */
-	*pxTopOfStack = ( StackType_t ) 0x00;	/* R1 */
+	*pxTopOfStack = ( StackType_t ) 0x01;	/* R1 */
 	pxTopOfStack--;
 	*pxTopOfStack = ( StackType_t ) 0x02;	/* R2 */
 	pxTopOfStack--;
@@ -267,6 +267,7 @@ static void prvSetupTimerInterrupt(void)
  */
 
 __task void SIG_OUTPUT_COMPARE1A(void) {
+        TCB0.INTFLAGS = TCB_CAPT_bm;
         vPortYieldFromTick();
         asm ("reti");
 }
