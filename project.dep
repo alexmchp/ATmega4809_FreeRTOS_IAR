@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>3059834747</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\freeRTOS\portable\IAR\ATmega4809\portmacro.s90</file>
+            <file>$PROJ_DIR$\freeRTOS\list.c</file>
+            <file>$PROJ_DIR$\include\clkctrl.h</file>
+            <file>$PROJ_DIR$\freeRTOS\portable\MemMang\heap_5.h</file>
+            <file>$PROJ_DIR$\include\driver_init.h</file>
+            <file>$PROJ_DIR$\include\port.h</file>
+            <file>$PROJ_DIR$\include\protected_io.h</file>
+            <file>$PROJ_DIR$\freeRTOS\queue.c</file>
+            <file>$PROJ_DIR$\freeRTOS\timers.c</file>
+            <file>$PROJ_DIR$\freeRTOS\portable\MemMang\heap_3.h</file>
+            <file>$PROJ_DIR$\include\bod.h</file>
+            <file>$PROJ_DIR$\include\ccp.h</file>
+            <file>$PROJ_DIR$\include\cpuint.h</file>
+            <file>$PROJ_DIR$\freeRTOS\portable\IAR\ATmega4809\port.c</file>
+            <file>$PROJ_DIR$\freeRTOS\portable\MemMang\heap_2.h</file>
+            <file>$PROJ_DIR$\include\slpctrl.h</file>
+            <file>$PROJ_DIR$\freeRTOS\portable\IAR\ATmega4809\portmacro.h</file>
+            <file>$PROJ_DIR$\freeRTOS\portable\MemMang\heap_1.h</file>
+            <file>$PROJ_DIR$\freeRTOS\include\stream_buffer.h</file>
+            <file>$PROJ_DIR$\freeRTOS\include\stack_macros.h</file>
+            <file>$PROJ_DIR$\freeRTOS\portable\MemMang\heap.c</file>
+            <file>$PROJ_DIR$\freeRTOS\portable\MemMang\heap_4.h</file>
+            <file>$PROJ_DIR$\include\atmel_start_pins.h</file>
+            <file>$PROJ_DIR$\freeRTOS\include\task.h</file>
+            <file>$PROJ_DIR$\freeRTOS\include\timers.h</file>
+            <file>$PROJ_DIR$\freeRTOS\croutine.c</file>
+            <file>$PROJ_DIR$\freeRTOS\tasks.c</file>
+            <file>$PROJ_DIR$\freeRTOS\event_groups.c</file>
+            <file>$PROJ_DIR$\freeRTOS\stream_buffer.c</file>
+            <file>$PROJ_DIR$\freeRTOS\include\list.h</file>
+            <file>$PROJ_DIR$\freeRTOS\include\FreeRTOS.h</file>
+            <file>$PROJ_DIR$\freeRTOS\include\projdefs.h</file>
+            <file>$PROJ_DIR$\config\clock_config.h</file>
+            <file>$PROJ_DIR$\freeRTOS\include\croutine.h</file>
+            <file>$PROJ_DIR$\freeRTOS\include\deprecated_definitions.h</file>
+            <file>$PROJ_DIR$\freeRTOS\include\mpu_wrappers.h</file>
+            <file>$PROJ_DIR$\freeRTOS\include\portable.h</file>
+            <file>$PROJ_DIR$\freeRTOS\include\queue.h</file>
+            <file>$PROJ_DIR$\freeRTOS\include\event_groups.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\tasks.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\list.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\timers.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\timers.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\heap.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\list.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\port.pbi</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-3s-arch4-sf-n.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\clkctrl.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\protected_io.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\slpctrl.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\portmacro.r90</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stddef.h</file>
+            <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\event_groups.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\croutine.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\clkctrl.r90</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\cpuint.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\driver_init.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\driver_init.r90</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdbool.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\heap.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\event_groups.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\iom4809.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\project.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\atmel_start.r90</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\atmel_start.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\ioavr.h</file>
+            <file>$PROJ_DIR$\src\protected_io.S</file>
+            <file>$PROJ_DIR$\include\system.h</file>
+            <file>$PROJ_DIR$\utils\assembler.h</file>
+            <file>$PROJ_DIR$\utils\atomic.h</file>
+            <file>$PROJ_DIR$\utils\assembler\iar.h</file>
+            <file>$PROJ_DIR$\atmel_start.c</file>
+            <file>$PROJ_DIR$\atmel_start.h</file>
+            <file>$PROJ_DIR$\driver_isr.c</file>
+            <file>$PROJ_DIR$\FreeRTOSConfig.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\utils\interrupt_avr8.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\project.d90</file>
+            <file>$PROJ_DIR$\Debug\Obj\bod.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\queue.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\slpctrl.r90</file>
+            <file>$PROJ_DIR$\src\bod.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\croutine.pbi</file>
+            <file>$PROJ_DIR$\src\driver_init.c</file>
+            <file>$PROJ_DIR$\iar-project-connection.ipcf</file>
+            <file>$PROJ_DIR$\src\slpctrl.c</file>
+            <file>$PROJ_DIR$\utils\compiler.h</file>
+            <file>$TOOLKIT_DIR$\src\template\cfg_avr_arch4_3soim.xcl</file>
+            <file>$PROJ_DIR$\src\cpuint.c</file>
+            <file>$PROJ_DIR$\src\clkctrl.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\port.r90</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-3s-arch4-sf-n.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stream_buffer.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\cpuint.r90</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\driver_isr.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\driver_isr.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\tasks.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+            <file>$TOOLKIT_DIR$\src\template\cfgm4809.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stream_buffer.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\queue.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\bod.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\Atmel\iomacro_xmega.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\List\project.map</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 86 118</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freeRTOS\portable\IAR\ATmega4809\portmacro.s90</name>
+            <outputs>
+                <tool>
+                    <name>AAVR</name>
+                    <file> 52</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AAVR</name>
+                    <file> 67 55 116</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freeRTOS\list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 111 70 53 117 100 85 51 56 72 30 54 110 82 73 67 55 116 31 36 34 16 35 29</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freeRTOS\queue.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 88</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 114</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 111 70 53 117 100 85 51 56 72 104 30 54 110 82 73 67 55 116 31 36 34 16 35 23 29 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freeRTOS\timers.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 111 70 53 117 100 85 51 56 72 30 54 110 82 73 67 55 116 31 36 34 16 35 23 29 37 24</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freeRTOS\portable\IAR\ATmega4809\port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 99</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 111 70 53 117 100 85 51 56 72 73 67 55 116 30 54 110 82 31 36 34 16 35 23 29</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freeRTOS\portable\MemMang\heap.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 65</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 17 111 70 53 117 100 85 51 56 72 30 54 110 82 73 67 55 116 31 36 34 16 35 23 29</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freeRTOS\croutine.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 30 54 70 53 117 100 85 51 56 72 110 82 73 67 55 116 31 36 34 16 35 23 29 33</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freeRTOS\tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 111 70 53 117 100 85 51 56 72 104 30 54 110 82 73 67 55 116 31 36 34 16 35 23 29 24 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freeRTOS\event_groups.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 57</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 111 70 53 117 100 85 51 56 72 30 54 110 82 73 67 55 116 31 36 34 16 35 23 29 24 38</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freeRTOS\stream_buffer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 101</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 113</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 110 70 53 117 100 85 51 56 104 72 30 54 82 73 67 55 116 31 36 34 16 35 23 29 18</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\protected_io.S</name>
+            <outputs>
+                <tool>
+                    <name>AAVR</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AAVR</name>
+                    <file> 76 78 73 67 55 116</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\atmel_start.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 80 4 95 73 67 55 116 60 64 110 70 53 117 100 85 51 56 54 72 111 84 32 5 22 2 12 15 10</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\driver_isr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 106</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 4 95 73 67 55 116 60 64 110 70 53 117 100 85 51 56 54 72 111 84 32 5 22 2 12 15 10</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 73 67 55 116 105 70 53 117 100 85 51 56 72 103 30 54 110 82 31 36 34 16 35 23 29</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\project.d90</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 118</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 112 96 69 87 59 102 58 63 106 57 43 40 108 99 52 48 88 89 101 39 41 46</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\bod.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 87</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 115</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 10 95 73 67 55 116 60 64 110 70 53 117 100 85 51 56 54 72 111 84 11 6</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\driver_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 62</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 4 95 73 67 55 116 60 64 110 70 53 117 100 85 51 56 54 72 111 84 32 5 22 2 12 15 10 75 11 6</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\slpctrl.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 89</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 49</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 15 95 73 67 55 116 60 64 110 70 53 117 100 85 51 56 54 72 111 84</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\cpuint.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 95 73 67 55 116 60 64 110 70 53 117 100 85 51 56 54 72 111 84 12 11 6 77</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\clkctrl.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 2 95 73 67 55 116 60 64 110 70 53 117 100 85 51 56 54 72 111 84 11 6</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
